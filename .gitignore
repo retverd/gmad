@@ -81,6 +81,9 @@ target/
 profile_default/
 ipython_config.py
 
+# PyCharm stuff
+.idea/
+
 # pyenv
 .python-version
 
@@ -127,3 +130,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Files with secure information (https://developers.google.com/gmail/api/quickstart/python)
+credentials.json
+token.pickle
+outputs/
